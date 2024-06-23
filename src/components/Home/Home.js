@@ -14,7 +14,7 @@ function Home() {
           <Row>
             
 
-            <Col md={6} style={{ paddingBottom: 20, marginTop:"-30px" , marginLeft:"45px" }}>
+            <Col md={6}>
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -24,7 +24,7 @@ function Home() {
             </Col>
 
             <Col md={5} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
